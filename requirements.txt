@@ -1,10 +1,25 @@
+# Streamlit for the app
 streamlit==1.49.1
+
+# Core LangChain
 langchain>=0.3.27
+
+# LangChain community + Groq
 langchain-community>=0.0.174
-langchain-groq>=0.0.6  
+langchain-groq>=0.0.12
+
+# Hugging Face Hub
 huggingface_hub>=0.19
-chromadb>=1.0.20
+
+# ChromaDB compatible version
+chromadb>=1.0.20,<1.1.0
+
+# Environment variables
 python-dotenv==1.0.0
-datasets
+
+# Datasets
+datasets>=2.15.0
+
+# Data handling
 pandas==2.1.0
 numpy==1.26.4
