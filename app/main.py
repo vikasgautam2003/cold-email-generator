@@ -182,7 +182,7 @@
 
 
 import streamlit as st
-from langchain.document_loaders import WebBaseLoader  # updated import
+from langchain_community.document_loaders.web_base import WebBaseLoader
 from chains import Chain
 from portfolio import Portfolio
 from utils import clean_text
